@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { useState } from "react";
 import "./App.css";
 
@@ -6,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>React Counter</h1>
+      <h1>React Counter after Docker...//</h1>
       <p>Current Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <button onClick={() => setCount(count - 1)}>Decrement</button>
